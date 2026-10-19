@@ -4,6 +4,8 @@
 /* Brand portfolio */
 .brand-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;max-width:1120px}
 .brand-grid .brand-card{max-width:none;min-height:310px;display:flex;flex-direction:column;justify-content:center}
+.brand-card--rebornly{background:#f3eae0;border-color:#e6dfd7}
+.brand-card--rebornly p{color:#53504e}
 .brand-card--frondly{border-color:#68c99566;background:radial-gradient(circle at 95% 5%,#69e39c30,transparent 55%),linear-gradient(135deg,#15332c 0%,#1c4135 100%)}
 .frondly-wordmark{display:flex;align-items:center;gap:13px;color:#8be7ac;font-family:ui-rounded,"Arial Rounded MT Bold",Inter,ui-sans-serif,system-ui,sans-serif;font-size:clamp(38px,4.1vw,55px);font-weight:750;letter-spacing:-.07em;line-height:1.05;margin-bottom:28px}
 .frondly-wordmark svg{width:49px;height:53px;flex:none}

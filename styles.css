@@ -3,7 +3,9 @@
 
 /* Brand portfolio */
 .brand-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;max-width:1120px}
+.brand-grid--single{grid-template-columns:minmax(0,700px)}
 .brand-grid .brand-card{max-width:none;min-height:310px;display:flex;flex-direction:column;justify-content:center}
+.brand-grid .brand-card[hidden]{display:none}
 .brand-card--rebornly{background:#f3eae0;border-color:#e6dfd7}
 .brand-card--rebornly p{color:#53504e}
 .brand-card--frondly{border-color:#68c99566;background:radial-gradient(circle at 95% 5%,#69e39c30,transparent 55%),linear-gradient(135deg,#15332c 0%,#1c4135 100%)}
